@@ -13,8 +13,14 @@ const responsive = {
   600: {
     items: 2,
   },
-  1000: {
+  1400: {
     items: 4,
+  },
+  1100: {
+    items: 3,
+  },
+  1800: {
+    items: 5,
   },
 };
 let slider;
@@ -37,14 +43,16 @@ const slideNextKeyBoard = (e) => {
 
 const TopSpeakers = () => (
   <div className="past-speaker-container">
-    <h2>Top Speakers</h2>
+    <h1 className="event-header">Top Speakers</h1>
     <div className="nav-button-wrapper">
       <div className="view-more">View More</div>
-      <div className="owl-button-prev" onClick={slidePrev} onKeyDown={slidePrevKeyBoard} role="button" tabIndex={0}>
-        <i className="far fa-arrow-alt-circle-left" />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <div onClick={slidePrev} onKeyDown={slidePrevKeyBoard} role="button" tabIndex={0}>
+        <i className="far fa-arrow-alt-circle-left fa-lg nav-icon" />
       </div>
-      <div className="owl-button-next" onClick={slideNext} onKeyDown={slideNextKeyBoard} role="button" tabIndex={0}>
-        <i className="far fa-arrow-alt-circle-right" />
+      &nbsp;&nbsp;&nbsp;
+      <div onClick={slideNext} onKeyDown={slideNextKeyBoard} role="button" tabIndex={0}>
+        <i className="far fa-arrow-alt-circle-right fa-lg nav-icon" />
       </div>
     </div>
 

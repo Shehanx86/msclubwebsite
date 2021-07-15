@@ -1,44 +1,43 @@
 {
-  "data" : [
+  "data": [
     {
       "id": 1,
       "image": "https://blog.bizzabo.com/hs-fs/hubfs/Microsoft%20Event%20Marketing/microsoft-event-marketing-blue-min.png?width=500&name=microsoft-event-marketing-blue-min.png",
-      "time": "6.30 PM",
+      "datetime": "2015-03-25T12:00:00Z",
       "title": "Kubernetes Up & Running",
-      "date":"27",
-      "month":"Nov"
+      "tags": ["kubernetes", "docker"]
     },
     {
       "id": 2,
       "image": "https://blog.bizzabo.com/hs-fs/hubfs/Microsoft%20Event%20Marketing/microsoft-event-marketing-blue-min.png?width=500&name=microsoft-event-marketing-blue-min.png",
       "time": "6.00 PM",
+      "datetime": "2015-03-25T12:00:00Z",
       "title": "Imagine Cup Awareness Session",
-      "date":"07",
-      "month":"Dec"
+      "tags": ["kubernetes", "docker"]
     },
     {
       "id": 3,
       "image": "https://blog.bizzabo.com/hs-fs/hubfs/Microsoft%20Event%20Marketing/microsoft-event-marketing-blue-min.png?width=500&name=microsoft-event-marketing-blue-min.png",
       "time": "7.30 PM",
+      "datetime": "2015-03-25T12:00:00Z",
       "title": "First Step into Azure IoT",
-      "date":"15",
-      "month":"Aug"
+      "tags": ["kubernetes", "docker"]
     },
     {
       "id": 4,
       "image": "https://blog.bizzabo.com/hs-fs/hubfs/Microsoft%20Event%20Marketing/microsoft-event-marketing-blue-min.png?width=500&name=microsoft-event-marketing-blue-min.png",
       "time": "7.00 PM",
+      "datetime": "2015-03-25T12:00:00Z",
       "title": "Cloud Skills Challange - Lauching Event",
-      "date":"15",
-      "month":"Sep"
+      "tags": ["kubernetes", "docker"]
     },
     {
       "id": 5,
       "image": "https://blog.bizzabo.com/hs-fs/hubfs/Microsoft%20Event%20Marketing/microsoft-event-marketing-blue-min.png?width=500&name=microsoft-event-marketing-blue-min.png",
       "time": "6.30 PM",
+      "datetime": "2015-03-25T12:00:00Z",
       "title": "Serveless Computing with Azure Functions",
-      "date":"21",
-      "month":"Jul"
-    }     
+      "tags": ["kubernetes", "docker"]
+    }
   ]
 }

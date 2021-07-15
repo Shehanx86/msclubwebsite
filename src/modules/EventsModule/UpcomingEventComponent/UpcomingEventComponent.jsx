@@ -1,30 +1,25 @@
 import React from 'react';
 import './UpcomingEventComponent.css';
-import UpcomingBanner from '../../../assets/event/UpcomingBanner.svg';
+import upcomingEvents from './UpcomingEventData.json';
 
 const UpcomingEventComponent = () => (
-  <section className="UpcomingEventComponent container mt-5">
-    <h2 className="text-left upcomming-title">
+  <section className="UpcomingEventComponent container-fluid mt-5">
+    <h2 className="upcomming-title">
       <strong>Upcoming Event</strong>
     </h2>
     <div>
       <div className="card mt-5 mb-5 upcomming-event-card">
         <div className="row ">
-          <div className="col-lg-5 col-md-12 col-sm-12">
-            <img alt="imageFlatVector" className="img-fluid upcomming-event-img" src={UpcomingBanner} />
+          <div className="col-lg-5 col-md-12 col-sm-12 upcomming-event-img-div">
+            <img alt="imageFlatVector" className="img-fluid upcomming-event-img" src={upcomingEvents.data.image} />
           </div>
 
-          <div className="col-lg-7 col-md-12 col-sm-12 p-3">
+          <div className="col-lg-7 col-md-12 col-sm-12 p-4 upcomming-event-col">
             <h2>
-              <strong>Lorem ipsum</strong>
+              <strong>{upcomingEvents.data.title}</strong>
             </h2>
-            <p className="lead mt-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi elementum at egestas rutrum commodo
-              ultrices vitae vel.Velit a scelerisque et pharetra, tincidunt pulvinar amet. Tristique morbi enim urna
-              viverra massa vehicula quam Velit a scelerisque et pharetra, tincidunt pulvinar amet. Tristique morbi enim
-              urna viverra massa vehicula quam.
-            </p>
-            <button type="button" className="event-upcoming-btn mt-3">
+            <p className="lead mt-3">{upcomingEvents.data.description}</p>
+            <button type="button" className="btn btn-success btn-pill mt-3">
               Read More
             </button>
           </div>

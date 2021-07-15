@@ -8,16 +8,18 @@ import ContactUs from '../pages/ContactUsPage/ContactUs';
 import Navbar from '../component/common/navbar/Navbar';
 
 const AppRoutes = () => (
-  <Router>
-    <Navbar />
-    <Switch>
-      <Route path="/" component={Home} exact />
-      <Route path="/about" component={AboutUs} exact />
-      <Route path="/events" component={Events} exact />
-      <Route path="/contact" component={ContactUs} exact />
-    </Switch>
-    <Footer />
-  </Router>
+  <div>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/about" component={AboutUs} exact />
+        <Route path="/events" component={Events} exact />
+        <Route path="/contact" component={ContactUs} exact />
+      </Switch>
+      <Footer />
+    </Router>
+  </div>
 );
 
 export default AppRoutes;

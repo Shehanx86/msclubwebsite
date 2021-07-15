@@ -3,7 +3,7 @@ import './Footer.css';
 import Logo from '../../../assets/images/logo/Ms-Club.png';
 
 const footer = () => (
-  <footer className="footer-section">
+  <footer className="footer-section mt-5">
     <div className="container">
       <div className="footer-content pt-5 pb-5">
         <div className="row">
