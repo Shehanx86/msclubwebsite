@@ -1,6 +1,6 @@
 import React from 'react';
 import './BlogHeroSection.css';
-import BlogHeroHeaderImage from '../../../assets/flat-illustrations/undraw_events_2p66 1.png';
+import BlogHeroHeaderImage from ';
 
 const BLogHeroSection = () => (
   <div className="container-fluid header">
