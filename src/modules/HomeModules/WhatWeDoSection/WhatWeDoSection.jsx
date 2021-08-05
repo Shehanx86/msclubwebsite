@@ -11,12 +11,12 @@ const WhatWeDoSection = () => (
       </h2>
       <div className="container">
         <div className="row mt-5 mb-5">
-          <div className='col-md-6 col-sm-12'>
-            <p>{content.home.line1}</p>
-            <p>{content.home.line2}</p>
+          <div className="col-md-6 col-sm-12">
+            <p className="lead">{content.home.line1}</p>
+            <p className="lead">{content.home.line2}</p>
           </div>
-          <div className='col-md-6 col-sm-12 d-flex justify-content-center'>
-            <img alt='imageFlatVector' className='img-fluid d-none d-md-block' src={FlatVector} />
+          <div className="col-md-6 col-sm-12 d-flex justify-content-center">
+            <img alt="imageFlatVector" className="img-fluid d-none d-md-block" src={FlatVector} />
           </div>
         </div>
       </div>
