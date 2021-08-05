@@ -14,12 +14,12 @@ const UpcomingEventComponent = () => (
             <img alt="imageFlatVector" className="img-fluid upcomming-event-img" src={upcomingEvents.data.image} />
           </div>
 
-          <div className="col-lg-7 col-md-12 col-sm-12 p-4 upcomming-event-col">
+          <div className='col-lg-7 col-md-12 col-sm-12 p-5 upcomming-event-col'>
             <h2>
               <strong>{upcomingEvents.data.title}</strong>
             </h2>
-            <p className="lead mt-3">{upcomingEvents.data.description}</p>
-            <button type="button" className="btn btn-success btn-pill mt-3">
+            <p className='lead mt-3'>{upcomingEvents.data.description}</p>
+            <button type='button' className='btn btn-success btn-pill mt-3'>
               Read More
             </button>
           </div>

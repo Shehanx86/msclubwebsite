@@ -14,10 +14,7 @@ Read further to know how **you** can start contributing to MS Club!
 
 ## [Tech Stack](#Tech-Stack)
 
-### Front-End
-- HTML 
-- CSS
-- React.js
+![banner-whitebg-spacing-10px(2)](https://user-images.githubusercontent.com/73905901/126197938-6f1301fb-623f-4d0a-8bce-5b268722da1c.png)
 
 <!-- Add system architecture -->
 

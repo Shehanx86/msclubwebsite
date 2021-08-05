@@ -16,10 +16,10 @@
   }
 
   .past-event-container > h1 {
-    font-family: Product Sans;
-    font-weight: 600;
-    font-size: 30px;
-    margin-bottom: 30px;
+      font-family: Product Sans;
+      font-weight: 600;
+      font-size: 30px;
+      margin-bottom: 18px;
   }
 
   .nav-button-wrapper {

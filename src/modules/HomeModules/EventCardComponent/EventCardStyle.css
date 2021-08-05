@@ -9,29 +9,21 @@
 
 @media (min-width: 0px) {
   .past-event-img {
-    position: relative;
-    border-radius: 10px 10px 0px 0px;
-    background: var(--card-info-color);
+      position: relative;
+      border-radius: 20px 20px 0px 0px;
   }
 
   .event-card {
-    width: 250px;
-    height: 400px;
-    min-height: 380px;
-    border-radius: 10px 10px;
-    background: var(--light);
-    box-shadow: 0px 0px 0px var(--light-shadow-color);
-    transition: box-shadow 0.3s ease-out;
-    background: var(--card-info-color);
-    border-radius: 10px;
-    flex-wrap: wrap;
-    flex: initial;
+      width: 250px;
+      height: 400px;
+      min-height: 380px;
+      border-radius: 20px;
+      flex-wrap: wrap;
+      flex: initial;
   }
 
   .event-card:hover {
-    box-shadow: 8px 8px var(--light-shadow-color);
-    -webkit-transition: box-shadow 0.2s ease-in;
-    cursor: pointer;
+      box-shadow: 0px 10px 10px rgba(7, 7, 7, 0.2);
   }
 
   .card-title {
@@ -82,30 +74,22 @@
 
 @media (min-width: 250px) {
   .past-event-img {
-    position: relative;
-    border-radius: 10px 10px 0px 0px;
-    background: var(--card-info-color);
+      position: relative;
+      border-radius: 20px 20px 0px 0px;
   }
 
   .event-card {
-    width: 280px;
-    height: 430px;
-    min-height: 380px;
-    margin-left: 15px;
-    border-radius: 10px 10px;
-    background: var(--light);
-    box-shadow: 0px 0px 0px var(--light-shadow-color);
-    transition: box-shadow 0.3s ease-out;
-    background: var(--card-info-color);
-    border-radius: 10px;
-    flex-wrap: wrap;
-    flex: initial;
+      width: 280px;
+      height: 430px;
+      min-height: 380px;
+      margin-left: 15px;
+      border-radius: 20px;
+      flex-wrap: wrap;
+      flex: initial;
   }
 
   .event-card:hover {
-    box-shadow: 8px 8px var(--light-shadow-color);
-    -webkit-transition: box-shadow 0.2s ease-in;
-    cursor: pointer;
+      box-shadow: 0px 10px 10px rgba(7, 7, 7, 0.2);
   }
 
   .card-title {
@@ -156,30 +140,22 @@
 
 @media (min-width: 390px) {
   .past-event-img {
-    position: relative;
-    border-radius: 10px 10px 0px 0px;
-    background: var(--card-info-color);
+      position: relative;
+      border-radius: 20px 20px 0px 0px;
   }
 
   .event-card {
-    width: 300px;
-    height: 420px;
-    min-height: 380px;
-    margin-left: 20px;
-    border-radius: 10px 10px;
-    background: var(--light);
-    box-shadow: 0px 0px 0px var(--light-shadow-color);
-    transition: box-shadow 0.3s ease-out;
-    background: var(--card-info-color);
-    border-radius: 10px;
-    flex-wrap: wrap;
-    flex: initial;
+      width: 300px;
+      height: 420px;
+      min-height: 380px;
+      margin-left: 0px;
+      border-radius: 20px;
+      flex-wrap: wrap;
+      flex: initial;
   }
 
   .event-card:hover {
-    box-shadow: 8px 8px var(--light-shadow-color);
-    -webkit-transition: box-shadow 0.2s ease-in;
-    cursor: pointer;
+      box-shadow: 0px 10px 10px rgba(7, 7, 7, 0.2);
   }
 
   .card-title {
@@ -230,29 +206,21 @@
 
 @media (min-width: 576px) {
   .past-event-img {
-    position: relative;
-    border-radius: 10px 10px 0px 0px;
-    background: var(--card-info-color);
+      position: relative;
+      border-radius: 20px 20px 0px 0px;
   }
 
   .event-card {
-    width: 300px;
-    height: 420px;
-    min-height: 380px;
-    border-radius: 10px 10px;
-    background: var(--light);
-    box-shadow: 0px 0px 0px var(--light-shadow-color);
-    transition: box-shadow 0.3s ease-out;
-    background: var(--card-info-color);
-    border-radius: 10px;
-    flex-wrap: wrap;
-    flex: initial;
+      width: 300px;
+      height: 420px;
+      min-height: 380px;
+      border-radius: 20px;
+      flex-wrap: wrap;
+      flex: initial;
   }
 
   .event-card:hover {
-    box-shadow: 8px 8px var(--light-shadow-color);
-    -webkit-transition: box-shadow 0.2s ease-in;
-    cursor: pointer;
+      box-shadow: 0px 10px 10px rgba(7, 7, 7, 0.2);
   }
 
   .card-title {
@@ -303,29 +271,21 @@
 
 @media (min-width: 768px) {
   .past-event-img {
-    position: relative;
-    border-radius: 10px 10px 0px 0px;
-    background: var(--card-info-color);
+      position: relative;
+      border-radius: 20px 20px 0px 0px;
   }
 
   .event-card {
-    width: 300px;
-    height: 420px;
-    min-height: 380px;
-    border-radius: 10px 10px;
-    background: var(--light);
-    box-shadow: 0px 0px 0px var(--light-shadow-color);
-    transition: box-shadow 0.3s ease-out;
-    background: var(--card-info-color);
-    border-radius: 10px;
-    flex-wrap: wrap;
-    flex: initial;
+      width: 300px;
+      height: 420px;
+      min-height: 380px;
+      border-radius: 20px;
+      flex-wrap: wrap;
+      flex: initial;
   }
 
   .event-card:hover {
-    box-shadow: 8px 8px var(--light-shadow-color);
-    -webkit-transition: box-shadow 0.2s ease-in;
-    cursor: pointer;
+      box-shadow: 0px 10px 10px rgba(7, 7, 7, 0.2);
   }
 
   .card-title {
@@ -376,29 +336,21 @@
 
 @media (min-width: 992px) {
   .past-event-img {
-    position: relative;
-    border-radius: 10px 10px 0px 0px;
-    background: var(--card-info-color);
+      position: relative;
+      border-radius: 20px 20px 0px 0px;
   }
 
   .event-card {
-    width: 300px;
-    height: 420px;
-    min-height: 380px;
-    border-radius: 10px 10px;
-    background: var(--light);
-    box-shadow: 0px 0px 0px var(--light-shadow-color);
-    transition: box-shadow 0.3s ease-out;
-    background: var(--card-info-color);
-    border-radius: 10px;
-    flex-wrap: wrap;
-    flex: initial;
+      width: 300px;
+      height: 420px;
+      min-height: 380px;
+      border-radius: 20px;
+      flex-wrap: wrap;
+      flex: initial;
   }
 
   .event-card:hover {
-    box-shadow: 8px 8px var(--light-shadow-color);
-    -webkit-transition: box-shadow 0.2s ease-in;
-    cursor: pointer;
+      box-shadow: 0px 10px 10px rgba(7, 7, 7, 0.2);
   }
 
   .card-title {
@@ -449,27 +401,20 @@
 
 @media (min-width: 1200px) {
   .past-event-img {
-    position: relative;
-    border-radius: 10px 10px 0px 0px;
-    background: var(--card-info-color);
+      position: relative;
+      border-radius: 20px 20px 0px 0px;
   }
 
   .event-card {
-    width: 350px;
-    height: 460px;
-    min-height: 380px;
-    border-radius: 10px 10px;
-    background: var(--light);
-    box-shadow: 0px 0px 0px var(--light-shadow-color);
-    transition: box-shadow 0.3s ease-out;
-    background: var(--card-info-color);
-    border-radius: 10px;
+      width: 350px;
+      height: 460px;
+      min-height: 380px;
+      border-radius: 10px 10px;
+      border-radius: 20px;
   }
 
   .event-card:hover {
-    box-shadow: 8px 8px var(--light-shadow-color);
-    -webkit-transition: box-shadow 0.2s ease-in;
-    cursor: pointer;
+      box-shadow: 0px 10px 10px rgba(7, 7, 7, 0.2);
   }
 
   .card-title {
@@ -519,27 +464,23 @@
 
 @media (min-width: 1400px) {
   .past-event-img {
-    position: relative;
-    border-radius: 10px 10px 0px 0px;
-    background: var(--card-info-color);
+      position: relative;
+      border-radius: 20px 20px 0px 0px;
+      background: var(--card-info-color);
   }
 
   .event-card {
-    width: 380px;
-    height: 460px;
-    min-height: 380px;
-    border-radius: 10px 10px;
-    background: var(--light);
-    box-shadow: 0px 0px 0px var(--light-shadow-color);
-    transition: box-shadow 0.3s ease-out;
-    background: var(--card-info-color);
-    border-radius: 10px;
+      width: 380px;
+      height: 460px;
+      min-height: 380px;
+      border-radius: 10px 10px;
+      background: var(--light);
+      transition: 0.2s;
+      border-radius: 20px;
   }
 
   .event-card:hover {
-    box-shadow: 8px 8px var(--light-shadow-color);
-    -webkit-transition: box-shadow 0.2s ease-in;
-    cursor: pointer;
+      box-shadow: 0px 10px 10px rgba(7, 7, 7, 0.2);
   }
 
   .card-title {

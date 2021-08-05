@@ -2,6 +2,7 @@
 import React from 'react';
 import './MissionVision.css';
 import FlatVector from '../../../assets/flat-illustrations/boardpeople.png';
+import content from './MissionVisionData.json';
 
 const MissionVision = () => (
   <section className="mainSection">
@@ -16,11 +17,7 @@ const MissionVision = () => (
             <h2>
               <strong>Our Mission</strong>
             </h2>
-            <p className="lead">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi elementum at egestas rutrum commodo
-              ultrices vitae vel. Velit a scelerisque et pharetra, tincidunt pulvinar amet. Tristique morbi enim urna
-              viverra massa vehicula quam.
-            </p>
+            <p className='lead'>{content.mission.description}</p>
           </div>
         </div>
       </div>
@@ -34,11 +31,7 @@ const MissionVision = () => (
           <h2>
             <strong>Our Vision</strong>
           </h2>
-          <p className="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi elementum at egestas rutrum commodo ultrices
-            vitae vel. Velit a scelerisque et pharetra, tincidunt pulvinar amet. Tristique morbi enim urna viverra massa
-            vehicula quam.
-          </p>
+          <p className='lead'>{content.vision.description}</p>
         </div>
       </div>
 
@@ -51,11 +44,7 @@ const MissionVision = () => (
           <h2>
             <strong>Our Strategy</strong>
           </h2>
-          <p className="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi elementum at egestas rutrum commodo ultrices
-            vitae vel. Velit a scelerisque et pharetra, tincidunt pulvinar amet. Tristique morbi enim urna viverra massa
-            vehicula quam.
-          </p>
+          <p className='lead'>{content.strategy.description}</p>
         </div>
       </div>
     </div>

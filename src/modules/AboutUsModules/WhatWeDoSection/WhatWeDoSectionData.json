@@ -3,22 +3,22 @@
     {
       "id": 1,
       "icon": "fas fa-users fa-5x",
-      "description": "The organization overview in a nonprofit job description shares key descriptors of the organization."
+      "description": "Tech Talks"
     },
     {
       "id": 2,
       "icon": "fas fa-calendar fa-5x",
-      "description": "The organization overview in a nonprofit job description shares key descriptors of the organization."
+      "description": "Hackathons"
     },
     {
       "id": 3,
       "icon": "fas fa-fist-raised fa-5x",
-      "description": "The organization overview in a nonprofit job description shares key descriptors of the organization."
+      "description": "Technical Workshops"
     },
     {
       "id": 4,
       "icon": "fas fa-users fa-5x",
-      "description": "The organization overview in a nonprofit job description shares key descriptors of the organization."
+      "description": "Mentor Programs"
     }
   ]
 }

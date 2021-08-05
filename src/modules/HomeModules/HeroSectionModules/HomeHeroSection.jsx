@@ -1,6 +1,7 @@
 import React from 'react';
 import './HomeHeroSection.css';
 import HeroHeaderImage from '../../../assets/home/header-image.svg';
+import content from './HomeHeroSectionData.json';
 
 const HomeHeroSection = () => (
   <div className="container-fluid header">
@@ -11,12 +12,9 @@ const HomeHeroSection = () => (
           <b>MS CLUB OF SLIIT</b>
         </p>
         <div>
-          <p className="home-header-content">
-            A student-driven community based on Sri Lanka Institute of Information Technology aiming to bridge the skill
-            gap between an Undergraduate and an Industry Professional.
-          </p>
+          <p className='home-header-content'>{content.description}</p>
         </div>
-        <button type="button" className="home-header-btn">
+        <button type='button' className='home-header-btn btn btn-success btn-pill'>
           Join Now
         </button>
       </div>

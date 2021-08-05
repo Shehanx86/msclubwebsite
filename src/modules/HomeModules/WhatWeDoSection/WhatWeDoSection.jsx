@@ -1,27 +1,22 @@
 import React from 'react';
 import FlatVector from '../../../assets/flat-illustrations/boardpeople.png';
 import './WhatWeDoSection.css';
+import content from './WhatWeDoSectionData.json';
 
 const WhatWeDoSection = () => (
   <section className="WhatWeDoSectionHome container mt-5">
     <div className="wrap">
       <h2 className="text-center what-we-do-header">
-        <strong>What We Do</strong>
+        <strong>Who Are We?</strong>
       </h2>
       <div className="container">
         <div className="row mt-5 mb-5">
-          <div className="col-md-6 col-sm-12">
-            <h3>
-              <strong>Lorem ipsum</strong>
-            </h3>
-            <p className="lead">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi elementum at egestas rutrum commodo
-              ultrices vitae vel. Velit a scelerisque et pharetra, tincidunt pulvinar amet. Tristique morbi enim urna
-              viverra massa vehicula quam.
-            </p>
+          <div className='col-md-6 col-sm-12'>
+            <p>{content.home.line1}</p>
+            <p>{content.home.line2}</p>
           </div>
-          <div className="col-md-6 col-sm-12 d-flex justify-content-center">
-            <img alt="imageFlatVector" className="img-fluid d-none d-md-block" src={FlatVector} />
+          <div className='col-md-6 col-sm-12 d-flex justify-content-center'>
+            <img alt='imageFlatVector' className='img-fluid d-none d-md-block' src={FlatVector} />
           </div>
         </div>
       </div>

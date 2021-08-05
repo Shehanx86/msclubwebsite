@@ -8,7 +8,16 @@ import TopSpeakerCard from '../../../component/TopSpeakerCard/TopSpeakerCard';
 
 const responsive = {
   0: {
+    items: 1.3,
+  },
+  375: {
     items: 1,
+  },
+  411: {
+    items: 1.3,
+  },
+  414: {
+    items: 1.3,
   },
   600: {
     items: 2,
@@ -16,11 +25,17 @@ const responsive = {
   1400: {
     items: 4,
   },
+  900: {
+    items: 2.6,
+  },
+  1000: {
+    items: 3,
+  },
   1100: {
     items: 3,
   },
   1800: {
-    items: 5,
+    items: 4.9,
   },
 };
 let slider;

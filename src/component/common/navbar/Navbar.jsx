@@ -16,15 +16,17 @@ function Navbar() {
   window.addEventListener('scroll', changeBackground);
 
   return (
-    <div>
+    <div className='navbar-container'>
       <nav
         className={
-          navbar ? 'navbar active navbar-expand-lg navbar-light bg' : 'navbar navbar-expand-lg navbar-light bg'
+          navbar
+            ? 'navbar fixed-top active navbar-expand-lg navbar-light bg'
+            : 'navbar fixed-top navbar-expand-lg navbar-light bg'
         }
       >
-        <div className="container-fluid">
-          <a className="navbar-brand" href="/">
-            <img src={MSCLUBLOGO} alt="MsClubLogo" className="img-logo" />
+        <div className='container-fluid'>
+          <a className='navbar-brand' href='/'>
+            <img src={MSCLUBLOGO} alt='MsClubLogo' className='img-logo' />
           </a>
           <button
             className="navbar-toggler"

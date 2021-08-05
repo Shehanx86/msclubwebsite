@@ -11,7 +11,7 @@ describe('HomeModule - WhatWeDoSection.jsx', () => {
   });
 
   test('render with correct title', () => {
-    const titleText = 'What We Do';
+    const titleText = 'Who Are We?';
     render(<WhatWeDoSection />);
     expect(screen.queryByText(titleText)).toBeInTheDocument();
   });
