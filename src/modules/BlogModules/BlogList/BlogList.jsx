@@ -8,11 +8,10 @@ const BlogList = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axios.get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@dckalubowila25132')
+    axios.get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ms-club-of-sliit')
       .then(res => {
         setPosts(res.data.items);
       }).catch(err => {
-      console.log(err);
     });
   }, []);
 
