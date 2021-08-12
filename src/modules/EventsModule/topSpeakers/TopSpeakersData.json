@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image": "/assets/speakers/Fiqri-Ismail.jpg",
+      "title": "Fiqri Ismail",
+      "description": "Architect . Author . Teacher . MVP - Azure",
+      "socialMediaURLs": {
+        "fb": "https://www.facebook.com/fiqri.ismail",
+        "instagram": "https://www.instagram.com/fiqriismail/",
+        "twitter": "https://twitter.com/fiqriismail",
+        "linkedIn": "https://www.linkedin.com/pub/fiqri-ismail/29/b75/122",
+        "web": "https://askfiqri.com/"
+      }
+    },
+    {
+      "id": 2,
+      "image": "/assets/speakers/Hansamali-Gamage.jpg",
+      "title": "Hansamali Gamage",
+      "description": "Blogger . Speaker . Author . MVP - Azure . MCT",
+      "socialMediaURLs": {
+        "fb": "https://www.facebook.com/hansamali.gamage",
+        "instagram": "",
+        "twitter": "https://twitter.com/HansamaliGamage",
+        "linkedIn": "https://www.linkedin.com/in/hansamali-gamage-37777a50/",
+        "web": "https://hansamaligamage.blogspot.com/"
+      }
+    },
+    {
+      "id": 3,
+      "image": "/assets/speakers/Shameera-Prajapriya.jpg",
+      "title": "Shameera Prajapriya",
+      "description": "Director . Principal Architect . MVP - Azure . Technical Speaker",
+      "socialMediaURLs": {
+        "fb": "https://www.facebook.com/prajapriya",
+        "instagram": "",
+        "twitter": "https://twitter.com/prajapriya?lang=en",
+        "linkedIn": "https://www.linkedin.com/in/prajapriya/",
+        "web": ""
+      }
+    },
+    {
+      "id": 4,
+      "image": "/assets/speakers/Sammani-Palansuriya.jpg",
+      "title": "Sammani Palansuriya",
+      "description": "Technical Architect . MVP - Azure",
+      "socialMediaURLs": {
+        "fb": "https://www.facebook.com/SammaniPalansuriya",
+        "instagram": "",
+        "twitter": "",
+        "linkedIn": "https://lk.linkedin.com/in/sammanipalansuriya",
+        "web": "https://sammanipalansuriya.blogspot.com/"
+      }
+    },
+    {
+      "id": 5,
+      "image": "/assets/speakers/Dinesh-Priyankara.jpg",
+      "title": "Dinesh Priyankara",
+      "description": "CEO at dinesQL & InnoventSys . MVP - Azure",
+      "socialMediaURLs": {
+        "fb": "https://www.facebook.com/dinesh.priyankara.35",
+        "instagram": "",
+        "twitter": "https://twitter.com/Dinesh_Priya",
+        "linkedIn": "https://lk.linkedin.com/pub/dinesh-priyankara/32/6a0/570",
+        "web": "http://dinesql.blogspot.com/"
+      }
+    }
+  ]
+}
