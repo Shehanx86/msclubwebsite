@@ -19,17 +19,17 @@ const footer = () => (
                 <p>{data.footer.description}</p>
                 <div className="row socialMediaRow mb-3">
                   <div className="col-lg-1 col-md-1 col-sm-1 socialMediaCol">
-                    <a href="https://www.facebook.com/msclubsliit" target="_blank" rel="noreferrer">
+                    <a href="https://www.facebook.com/msclubsliit" rel="noopener noreferrer" target="_blank">
                       <i className="bi bi-facebook socialmediaIcons text-white" />
                     </a>
                   </div>
                   <div className="col-lg-1 col-md-1 col-sm-1 socialMediaCol">
-                    <a href="https://www.linkedin.com/company/msclubsliit" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/company/msclubsliit" rel="noopener noreferrer" target="_blank">
                       <i className="bi bi-linkedin socialmediaIcons text-white" />
                     </a>
                   </div>
                   <div className="col-lg-1 col-md-1 col-sm-1 socialMediaCol">
-                    <a href="https://www.instagram.com/msclub.sliit" target="_blank" rel="noreferrer">
+                    <a href="https://www.instagram.com/msclub.sliit" rel="noopener noreferrer" target="_blank">
                       <i className="bi bi-instagram socialmediaIcons text-white" />
                     </a>
                   </div>
