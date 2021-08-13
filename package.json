@@ -15,7 +15,7 @@
     "react-notifications": "^1.7.2",
     "react-owl-carousel": "^2.3.3",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
   "devDependencies": {
@@ -46,6 +46,7 @@
   "browserslist": {
     "production": [
       ">0.2%",
+      "not dead",
       "not op_mini all"
     ],
     "development": [
@@ -60,7 +61,7 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,json}": [
+    "src/*/.{js,jsx,json}": [
       "prettier --write",
       "eslint --fix"
     ]
