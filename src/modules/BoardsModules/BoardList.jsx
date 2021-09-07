@@ -28,13 +28,13 @@ export default class BoardList extends Component {
       <div className="container">
         <div className="row">
           <span className="board-topic">
-            Meet the Team{' '}
+            Meet the Board{' '}
             <b className="board-topic-year">
               {nextBoard.year} - {this.incrementNumber(nextBoard.year)}
             </b>
           </span>
           <hr />
-          <div className="col-md-3">
+          <div className="col-md-2 pt-4">
             {BoardData.data.reverse().map((board) => (
               <div className="row" key={board.id}>
                 <button
@@ -47,7 +47,7 @@ export default class BoardList extends Component {
               </div>
             ))}
           </div>
-          <div className="col-md-9">
+          <div className="col-md-10">
             <div className="row">
               {BoardData.data[nextBoard.id].board.map((member) => (
                 <div className="col-md-4 col-sm-6" key={member.id}>
